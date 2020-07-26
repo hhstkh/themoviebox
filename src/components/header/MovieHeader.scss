@@ -1,0 +1,21 @@
+.header {
+    color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    .search-icon {
+        width: 20px;
+        background-color: black
+    }
+    .btn {
+        color: white;
+        padding: 0;
+    }
+    .btn-sign-up {
+        background-color: pink;
+    }
+    .site-title {
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,44 @@
+.banner-carousel {
+    .btn {
+        color: white;
+        padding: 0;
+    }
+    .carousel-caption {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0;
+        
+    }
+    .rating-star {
+        img {
+            width: 20px;
+        }
+    }
+}
+.carousel-content-left {
+    position: absolute;
+    left: 50px;
+    /* right: 15%; */
+    bottom: 20px;
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    /* text-align: center; */
+    text-align: left;
+}
+.carousel-content-right {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    /* text-align: center; */
+    text-align: left;
+}

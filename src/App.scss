@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
+@import "./common.scss";
+@import "@/components/header/MovieHeader.scss";
+@import "@/components/header/MovieFooter.scss";
+@import "@/components/MovieBannerCarousel.scss";
+@import "@/components/MovieList.scss";
+.container {
+    position: relative;
+}
+.line {
+    
+    border-bottom: 1px solid gray;
+  }
